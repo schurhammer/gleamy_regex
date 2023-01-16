@@ -1,9 +1,9 @@
 // A regex matching engine based on Brzozowski derivatives.
+//
 // References:
 // "Derivatives of Regular Expressions" by Brzozowski
 // "Regular-expression derivatives reexamined" by Owens
 
-// TODO parse strings to RX
 // TODO CharRage
 // TODO cache the result of v() on each node (test performance)
 // TODO use intersection and union during derive to keep tree smaller (test performance)
